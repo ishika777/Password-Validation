@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Password Validation</h3>
+        <input type="password" class="val">
+        <div class="show">
+            <h4>Length : 0</h4>
+            <i class="fa-regular fa-eye-slash" type="button"></i>
+        </div>
+        <div class="list">
+            <div class="check1"><i class="fa-regular fa-circle-check"></i> Length more than 5</div>
+            <div class="check2"><i class="fa-regular fa-circle-check"></i> Length less than 10</div>
+            <div class="check3"><i class="fa-regular fa-circle-check"></i> Contains numerical character</div>
+            <div class="check4"><i class="fa-regular fa-circle-check"></i> Contains special character</div>
+            <div class="check5"><i class="fa-regular fa-circle-check"></i> Shouldn't contain spaces</div>
+        </div>
+    </div>
+    <button class="reset">Reset</button>
+
+    <script src="pass.js"></script>
+</body>
+</html>
